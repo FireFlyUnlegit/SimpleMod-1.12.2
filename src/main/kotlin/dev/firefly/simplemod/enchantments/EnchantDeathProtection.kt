@@ -3,9 +3,9 @@ package dev.firefly.simplemod.enchantments
 import dev.firefly.simplemod.enchantments.baseclass.ModEnchantmentType
 import dev.firefly.simplemod.enchantments.baseclass.ModEnchantments
 
-object EnchantDoubleStrike : ModEnchantments(
-    "double_strike",
-    ModEnchantmentType.WEAPON,
-    6,
-    { 29 + 4 * it },
-    )
+object EnchantDeathProtection : ModEnchantments(
+    "death_protection",
+    ModEnchantmentType.CHESTPLATE,
+    3,
+    { 10 + 20 * it },
+)
